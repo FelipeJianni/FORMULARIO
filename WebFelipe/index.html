@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Formulários</title>
+
+  </head>
+
+  <body>
+
+    <form action="/cadastro" method="post" class="formulario">
+      <h1 class="formulario__titulo">REGISTER</h1>
+      <div class="formulario__nome">
+        <label for="nome"></label>
+        <input
+          type="text"
+          name="nome"
+          id="nome"
+          placeholder="First Name"
+          />
+       
+          <label for="nome"></label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Last Name"
+        />
+      </div>
+
+      <div class="formulario__campos">
+        <label for="Email"></label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+        />
+      </div>
+
+      <div class="formulario__campos">
+        <label for="senha"></label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+        />
+      </div>
+
+      <div class="formulario__campos">
+        <label for="confirmar_senha"></label>
+        <input
+          type="confirmar_password"
+          name="confirmar_password"
+          id="password"
+          placeholder="Confirm Password"
+        />
+      </div>
+
+        <div class="Formulario__ticotico">
+            <input type="checkbox" id="accept" name="accept">
+            <label for="accept">I accept 
+            <strong class="Formulario__ticotic">Terms of use</strong></label>
+        </div>
+
+      <div class="formulario__botoes">
+        <button type="submit">REGISTER NOW</button>
+      </div>
+    </form>
+
+
+
+
+  </body>
+</html>
